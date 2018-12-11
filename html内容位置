@@ -1,0 +1,7 @@
+如下单标签必定不匹配：
+link  base  input  meta  img
+
+中间会有单独的<p>或<a>不匹配
+
+endText加end-text加post_text都考虑比较稳妥（内容可能分布在多个文本块里，用id后内容识别？）
+还会有post_text套end-text的情况
